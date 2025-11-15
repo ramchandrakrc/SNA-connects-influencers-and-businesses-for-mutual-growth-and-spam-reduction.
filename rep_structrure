@@ -1,0 +1,14 @@
+├── data/                     # User-provided CSV files (not included)
+├── src/
+│   ├── graph_builder.py      # Build graph from interactions
+│   ├── feature_engineering.py# Extract SNA metrics
+│   ├── embeddings.py         # Node2Vec / Graph embeddings
+│   ├── link_prediction.py    # ML models for collaboration prediction
+│   ├── community_detection.py# Louvain / Girvan-Newman methods
+│   └── utils.py              # Helper functions
+├── results/
+│   ├── sample_graph.png      # Example output visualizations
+│   ├── communities.png       # Cluster visualization
+├── README.md
+└── requirements.txt
+
